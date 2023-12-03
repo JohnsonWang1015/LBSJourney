@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "地圖";
+}
+<fieldset id="app" class="m-0 p-0">
+    <div id="map" class="w-100"></div>
+    <button id="openModal" style="display: none;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        開啟 Modal
+    </button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">資料上傳</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">上傳者</label>
+                            <input class="form-control" type="text" id="uploader" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">上傳檔案</label>
+                            <input class="form-control" type="file" id="formFile" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">備註</label>
+                            <textarea class="form-control" id="memo"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">取消</button>
+                    <button v-on:click="uploadFile" type="button" class="btn btn-primary btn-lg">送出</button>
+                    @*<button type="button" class="btn btn-primary">Understood</button>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+<style>
+    body{
+        overflow-y: hidden;
+    }
+    #map{
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+<script>
+    axios.defaults.baseURL = "@ViewData["BaseURL"]";
+    const userName = "@ViewData["UserName"]";
+    var map, marker;
+    var pos = {
+        latitude: 0,
+        longitude: 0
+    };
+    $(document).ready(
+        async function (){
+            await getLocation();
+            setInterval(
+                async function (){
+                    await getLocation();
+                }, 5*60*1000
+            );
+            map = await L.map("map").setView([24.53788, 120.78898], 15);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright"></a>'
+            }).addTo(map);
+            $("#uploader").val(userName);
+        }
+    );
+    const getLocation = async () => {
+        if (navigator.geolocation){
+            await navigator.geolocation.getCurrentPosition(showPosition);
+        }else{
+            Swal.fire({
+              icon: 'error',
+              title: '定位失敗',
+              text: '定位功能不適用於此瀏覽器!',
+              confirmButtonText: "確認"
+            });
+        }
+    };
+    const showPosition = (position) => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+        pos = {
+            latitude: latitude,
+            longitude: longitude
+        };
+        console.log(latitude, longitude);
+        marker = L.marker([latitude, longitude]).addTo(map)
+            .bindPopup('<h4>您的位置</h4>')
+            .openPopup();
+        marker.on('click', app.markerOnClick);
+        // console.log(userName);
+        const jsonObject = {
+            userName: userName,
+            latitude: latitude.toString(),
+            longitude: longitude.toString()
+        };
+        axios.post(
+            url="/api/v1/locations/record",
+            data=jsonObject,
+            Headers={
+                "Content-Type": "application/json"
+            }
+        ).then(
+            (res)=>{
+                if(res.data.code === 200){
+                    console.log(res.data.msg);
+                }
+            }
+        ).catch(
+            (err)=>{
+                console.error(err);
+            }
+        );
+    };
+</script>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data:{
+            pos: {
+                latitude: "",
+                longitude: ""
+            },
+        },
+        methods:{
+            markerOnClick:function(e){
+                $("#openModal").click();
+                marker.bindPopup('<h4>您的位置</h4>').openPopup();
+            },
+            uploadFile:async function(){
+                const file = document.getElementById("formFile").files[0];
+                console.log(file);
+                if($("#uploader").val() && file){
+                    const uploader = $("#uploader").val().trim();
+                    const memo = $("#memo").val().trim();
+
+                }
+            },
+        }
+    });
+</script>

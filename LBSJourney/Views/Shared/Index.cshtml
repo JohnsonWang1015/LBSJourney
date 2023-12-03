@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LBS 定位追蹤暨導覽景點推薦系統</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/index.css" />
+    <link rel="stylesheet" href="~/css/_all-skins.css" />
+    <script src="~/lib/jquery/jQuery-2.2.0.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/index.js"></script>
+</head>
+<body class="hold-transition skin-blue sidebar-mini" style="overflow:hidden;">
+    <div id="ajax-loader" style="cursor: progress; position: fixed; top: -50%; left: -50%; width: 200%; height: 200%; background: #fff; z-index: 10000; overflow: hidden;">
+        <img src="~/img/ajax-loader.gif" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;" />
+    </div>
+    <div class="wrapper">
+        <!--抬頭訊息-->
+        <header class="main-header">
+            <a href="#" target="_blank" class="logo">
+                <span class="logo-mini">LBS</span>
+                <span class="logo-lg">
+                    <img src="~/img/top_logo.png" style="margin-bottom: 5px" />
+                </span>
+            </a>
+            <nav class="navbar navbar-static-top">
+                <a class="sidebar-toggle">
+                    <span class="sr-only">切换</span>
+                </a><span class="index_top"><strong>LBS 定位追蹤暨導覽景點推薦系統</strong></span>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="~/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                                <span class="hidden-xs">Administrator</span>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a class="menuItem" data-id="userInfo" href="/SystemManage/User/Info"><i class="fa fa-user"></i>个人信息</a></li>
+                                <li><a href="javascript:void();"><i class="fa fa-trash-o"></i>清空缓存</a></li>
+                                <li><a href="javascript:void();"><i class="fa fa-paint-brush"></i>皮肤设置</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/Login/OutLogin"><i class="ace-icon fa fa-power-off"></i>安全退出</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--左邊導覽列-->
+        <div class="main-sidebar">
+            <div class="sidebar">
+
+                <form action="#" method="get" class="sidebar-form">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <a class="btn btn-flat"><i class="fa fa-search"></i></a>
+                        </span>
+                    </div>
+                </form>
+                <ul class="sidebar-menu" id="sidebar-menu">
+                    <!--<li class="header">導覽菜單</li>-->
+                </ul>
+            </div>
+        </div>
+        <!--中間內容-->
+        <div id="content-wrapper" class="content-wrapper">
+            <div class="content-tabs">
+
+            </div>
+            <div class="content-iframe" style="overflow: hidden;">
+                <div class="mainContent" id="content-main" style="margin: 10px; margin-bottom: 0px; padding: 0;">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

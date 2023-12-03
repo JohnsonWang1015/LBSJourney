@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/p60k08mCdrxwKZJhlUUK2KOqagfVHIx3zdMPeD8ZHw=",
+  "Source": "LBSJourneyWebService",
+  "BasePath": "_content/LBSJourneyWebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

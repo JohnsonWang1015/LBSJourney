@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LBSJourneyWebService</name>
+    </assembly>
+    <members>
+        <member name="M:LBSJourneyWebService.Controllers.DropBoxController.CreateFolder(LBSJourneyWebService.Models.Dropbox.CreateFolderRequest)">
+            <summary>
+            建立 DropBox 資料夾
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.DropBoxController.UploadFile">
+            <summary>
+            上傳檔案到 DropBox
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.DropBoxController.ListFolder(LBSJourneyWebService.Models.Dropbox.ListFolderRequest)">
+            <summary>
+            取得 DropBox 資料夾內容
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.DropBoxController.DownloadFile(LBSJourneyWebService.Models.Dropbox.DownloadFileRequest)">
+            <summary>
+            下載檔案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.LiffController.GetLIFFID(System.String)">
+            <summary>
+            LINE LIFF ID 取得
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LBSJourneyWebService.Controllers.LineWebHookController">
+            <summary>
+            LINE WebHook 控制器
+            </summary>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.LineWebHookController.LineWebHook(LBSJourneyWebService.Models.WebHookData)">
+            <summary>
+            WebHook API 接口
+            </summary>
+            <param name="webHookData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LBSJourneyWebService.Controllers.LocationsController">
+            <summary>
+            定位資料 API
+            </summary>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.LocationsController.getAllUsersPosition">
+            <summary>
+            查詢所有使用者定位資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.LocationsController.recordPosition(LBSJourneyWebService.Models.Entity.Locations)">
+            <summary>
+            紀錄經緯度資料
+            </summary>
+            <param name="locations"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.PlacesController.insertPlaces(LBSJourneyWebService.Models.Entity.Places)">
+            <summary>
+            景點新增
+            </summary>
+            <param name="places">景點資料</param>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.UsersController.register(LBSJourneyWebService.Models.Entity.Users)">
+            <summary>
+            成員註冊
+            </summary>
+            <param name="users">使用者資料</param>
+            <returns></returns>
+        </member>
+        <member name="M:LBSJourneyWebService.Controllers.UsersController.emailModify(LBSJourneyWebService.Models.Entity.Users)">
+            <summary>
+            電子郵件修改
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LBSJourneyWebService.Models.Entity.Places">
+            <summary>
+            景點 Entity
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.PlaceId">
+            <summary>
+            景點 ID
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Name">
+            <summary>
+            景點名稱
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Address">
+            <summary>
+            景點地址
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Description">
+            <summary>
+            景點描述
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.PictureUrl">
+            <summary>
+            景點圖片 URL
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Score">
+            <summary>
+            景點評分
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Latitude">
+            <summary>
+            景點緯度
+            </summary>
+        </member>
+        <member name="P:LBSJourneyWebService.Models.Entity.Places.Longitude">
+            <summary>
+            景點經度
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LBSJourney.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LBSJourney.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\css\\_all-skins.css",
+      "PackagePath": "staticwebassets\\css\\_all-skins.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\fonts\\weathericons-regular-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\9.png",
+      "PackagePath": "staticwebassets\\img\\9.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\add01.png",
+      "PackagePath": "staticwebassets\\img\\add01.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\alam_map.png",
+      "PackagePath": "staticwebassets\\img\\alam_map.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\colse.png",
+      "PackagePath": "staticwebassets\\img\\colse.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\del01.png",
+      "PackagePath": "staticwebassets\\img\\del01.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\house.png",
+      "PackagePath": "staticwebassets\\img\\house.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\look.png",
+      "PackagePath": "staticwebassets\\img\\look.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\loy_ph.png",
+      "PackagePath": "staticwebassets\\img\\loy_ph.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\opne.png",
+      "PackagePath": "staticwebassets\\img\\opne.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\pr01.png",
+      "PackagePath": "staticwebassets\\img\\pr01.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\print.png",
+      "PackagePath": "staticwebassets\\img\\print.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\res01.png",
+      "PackagePath": "staticwebassets\\img\\res01.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\start.png",
+      "PackagePath": "staticwebassets\\img\\start.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\table_add.png",
+      "PackagePath": "staticwebassets\\img\\table_add.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\table_del.png",
+      "PackagePath": "staticwebassets\\img\\table_del.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\table_down.png",
+      "PackagePath": "staticwebassets\\img\\table_down.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\table_print.png",
+      "PackagePath": "staticwebassets\\img\\table_print.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\tclose.png",
+      "PackagePath": "staticwebassets\\img\\tclose.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\timg (1).jpg",
+      "PackagePath": "staticwebassets\\img\\timg (1).jpg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\timg (2).jpg",
+      "PackagePath": "staticwebassets\\img\\timg (2).jpg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\timg.jpg",
+      "PackagePath": "staticwebassets\\img\\timg.jpg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\tjico.png",
+      "PackagePath": "staticwebassets\\img\\tjico.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\top_logo.png",
+      "PackagePath": "staticwebassets\\img\\top_logo.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\up.png",
+      "PackagePath": "staticwebassets\\img\\up.png"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\axios.js",
+      "PackagePath": "staticwebassets\\js\\axios.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\axios.js.map",
+      "PackagePath": "staticwebassets\\js\\axios.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\axios.min.js",
+      "PackagePath": "staticwebassets\\js\\axios.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\axios.min.js.map",
+      "PackagePath": "staticwebassets\\js\\axios.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\vue.js",
+      "PackagePath": "staticwebassets\\js\\vue.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\js\\vue.min.js",
+      "PackagePath": "staticwebassets\\js\\vue.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\ASP_NET_Core_Engineer\\LBSJourney\\LBSJourney\\wwwroot\\lib\\jquery\\jQuery-2.2.0.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jQuery-2.2.0.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LBSJourney.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LBSJourney.props",
+      "PackagePath": "build\\LBSJourney.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LBSJourney.props",
+      "PackagePath": "buildMultiTargeting\\LBSJourney.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LBSJourney.props",
+      "PackagePath": "buildTransitive\\LBSJourney.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

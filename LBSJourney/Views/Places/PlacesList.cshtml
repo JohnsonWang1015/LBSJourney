@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "PlacesList";
+}
+
+<fieldset id="app">
+    <div id="map" class="w-100"></div>
+</fieldset>
+<style>
+    body {
+        overflow-y: hidden;
+    }
+
+    #map {
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+<script>
+    // axios.defaults.baseURL = "@ViewData["BaseURL"]";
+    var map, marker;
+    $(document).ready(
+        async function () {
+            map = L.map("map").setView([24.53788, 120.78898], 10);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright"></a>'
+            }).addTo(map);
+
+            const placeList = @Html.Raw(@ViewData["placeList"]);
+            // console.log(placeList);
+            placeList.forEach(
+                (item, index)=>{
+                    // console.log(item.Name);
+                    if(item.Latitude && item.Longitude){
+                        marker = L.marker([parseFloat(item.Latitude), parseFloat(item.Longitude)]).addTo(map)
+                            .bindPopup(`<h4>${item.Name}</h4>`)
+                            .openPopup();
+                    }
+                }
+            );
+        }
+    );
+</script>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data:{
+
+        },
+        methods:{
+
+        },
+    });
+</script>

@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewData["Title"] = "個人頁面";
+}
+
+<fieldset id="app">
+    <div class="container w-100 h-100">
+        <div class="container">
+            <div class="container">
+                <br /><br /><br /><br />
+                <div class="text-center mx-auto">
+                    <img class="img-fluid rounded-circle" style="width: 30%;height: auto;" :src="pictureUrl" alt="大頭貼" />
+                    <div class="container text-start mt-3">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-start">使用者名稱</label>
+                            <input value="@ViewData["UserName"]" id="userName" type="text" readonly class="form-control border-dark" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-start">電子郵件</label>
+                            <input value="@ViewData["Email"]" id="email" type="email" readonly class="form-control border-dark" />
+                        </div>
+                        <div class="d-grid gap-2 mt-3">
+                            <button v-on:click="modify" type="button" class="btn btn-secondary btn-lg fw-bold">修改資料</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+</fieldset>
+<script>
+    axios.defaults.baseURL = "@ViewData["BaseURL"]";
+    $(document).ready(
+        function(){
+            app.pictureUrl = sessionStorage.getItem("_pictureUrl");
+        }
+    );
+    const ajaxRefresh = ()=>{
+        $.ajax(
+            {
+                url: "/users",
+                context: document.body,
+                success: function (data) {
+                    location.reload();
+                    setTimeout(ajaxRefresh, 1000);
+                },
+            }
+        );
+    };
+</script>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data:{
+            pictureUrl: "",
+        },
+        methods:{
+            modify:function(){
+                Swal.fire({
+                    title: "修改電子郵件",
+                    input: "email",
+                    inputAttributes: {
+                        autocapitalize: 'off'
+                    },
+                    showCancelButton: true,
+                    confirmButtonText: '修改',
+                    cancelButtonText: '取消',
+                    showLoaderOnConfirm: true,
+preConfirm: (email) => {
+                        return axios.put("/api/v1/users/modify/email", {
+                            userName: "@ViewData["UserName"]",
+                            email: email,
+                        }).then(
+                            (res) => {
+                                // console.log(res);
+                                if (res.data.code === 200) {
+                                    return res.data.msg;
+                                } else {
+                                    throw new Error(res.data.msg);
+                                }
+                            }
+                        ).catch(
+                            (error) => {
+                                Swal.showValidationMessage(
+                                    `請求失敗: ${error}`
+                                )
+                            }
+                        );
+                    },
+                    allowOutsideClick: () => !Swal.isLoading()
+                }).then(
+                    (result)=>{
+                        if(result.isConfirmed){
+                            Swal.fire({
+                                title: "修改成功",
+                                icon: "success",
+                                confirmButtonText: "確定",
+                            }).then(
+                                (result)=>{
+                                    if(result){
+                                        ajaxRefresh();
+                                    }
+                                }
+                            );
+                        }
+                    }
+                );
+            },
+        }
+    });
+</script>
